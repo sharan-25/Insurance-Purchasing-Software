@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment_5.Client">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_5.InsuranceAgreement">
+    <Position X="7" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAAAAAAABAAAAAIAIAgAAAAAAAAAABAAAAQg=</HashCode>
+      <FileName>InsuranceAgreements.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment_5.User">
+    <Position X="3" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIgEAAAACQAAABAABAADAAhAAAAAUBAggAAAMAAIABQ=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="agreements" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment_5.Program">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABAAAAAAAABAAAgAAAAgAAAAAAAEAAAAAFAAIAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment_5.InsuranceCompany">
+    <Position X="0.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_5.Person">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAgAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
